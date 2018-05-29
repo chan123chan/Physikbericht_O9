@@ -1,0 +1,175 @@
+\documentclass[12pt, titlepage]{article}
+%------------------------------------------------------------
+
+% Packages --------------------------------------------------
+%Kopf und Fusszeile
+\usepackage[headsepline]{scrpage2}
+%Dokumentsabmessung
+\usepackage[left=3cm,top=2.5cm,right=3cm,bottom=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[german]{babel}
+\usepackage{microtype} %verbessert Darstellung
+
+%Abkürzungsverzeichnis
+\usepackage[nohyperlinks, printonlyused]{acronym}
+
+\usepackage[nottoc]{tocbibind}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{ragged2e}
+
+\usepackage{hyperref}
+%\usepackage{natbib} Harvard-Style
+\usepackage[authoryear]{natbib}
+\bibliographystyle{dcu}
+%plainnat
+%dcu
+\usepackage{enumitem}
+
+%\usepackage[author={Manu},markup=StrikeOut,color=red]{pdfcomment}
+
+\usepackage[rgb]{xcolor}
+
+\normalsize
+
+%Querformatseiten
+\usepackage{pdflscape}
+%nur Text im Querformat
+%\usepackage{lscape}
+
+%Abbildung im Verzeichnis verhindern
+\usepackage{caption}
+%\usepackage[onehalfspacing]{setspace}
+
+%Tabellen
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{color, colortbl}
+
+%Regressionstabellen aus Stata sauber importieren
+\usepackage{dcolumn}
+%\usepackage{multicol}
+
+%Zentrierte Tabellen über Komma
+\usepackage{multirow}
+
+%Gesplittete Gleichungen
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsbsy}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{wasysym}
+\numberwithin{equation}{section} %Nummeriert die Formeln nach Kapitel
+\usepackage{siunitx}
+
+
+%Fussnoten bei Tabelle
+\usepackage{setspace}
+\usepackage{threeparttable}
+
+%Kopf und Fusszeile
+\usepackage{scrpage2}
+\renewcommand{\headfont}{\scriptsize}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\chead{O9 Interferenz und Beugung}
+\ofoot{\normalsize\pagemark}
+\setheadsepline{.4pt}
+\setfootsepline{.4pt}
+\cfoot{Simon Zoller}
+
+%Fett und kleinere Schrift bei Beschriftungen
+\usepackage[labelfont={bf,sf},font={footnotesize},
+labelsep=colon]{caption}
+
+%Zeigt im Inhaltsverzeichniss nur section und subsection an
+\setcounter{tocdepth}{2} 
+\setcounter{secnumdepth}{3} 
+%------------------------------------------------------------
+
+%Zeilen einrücken verhindern
+\setlength{\parindent}{0em}
+
+% Dokument --------------------------------------------------
+\begin{document}
+
+% Titelseite -----------------------------------------------------
+\begin{titlepage}
+	
+\end{titlepage}
+
+%------------------------------------------------------------
+
+
+% Inhaltsverzeichnis ----------------------------------------
+\pagenumbering{Roman}
+\tableofcontents
+
+%\newpage
+%\listoffigures% Abbildungsverzeichnis
+%\newpage
+%\listoftables% Tabellenverzeichnis
+%\newpage
+%\phantomsection \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
+\newpage
+
+
+
+% Inhalt ------------------------------------------------------
+\pagenumbering{arabic}  
+
+% Kapitel 1----------------------------------------------------
+\input{Arbeitsgrundlage}
+\newpage
+% Kapitel 2----------------------------------------------------
+\input{Arbeitsmittel}
+\newpage
+% Kapitel 3----------------------------------------------------
+\input{Auswertung}
+\newpage
+% Kapitel 4----------------------------------------------------
+\input{Fehlerrechnung}
+\newpage
+% Kapitel 5----------------------------------------------------
+\input{Resultate}
+\newpage
+
+
+% Kapitel 6----------------------------------------------------
+\section{Selbständigkeitserklärung}
+% -------------------------------------------------------------
+Mit meiner Unterschrift bestätige ich, dass ich das Laborheft selbständig verfasst habe.\\\\
+Ort und Datum:\\\\
+.................................................\\
+Simon Zoller
+\newpage
+
+
+\begin{thebibliography}{xxxxxxxxxxxxxxxxxxx}
+   \bibitem[BMBF, 2003]{bmbf}[1] Minamisawa, R. (22.10.2015). M1 Geschwindigkeit einer Pistolenkugel. 	 	   Windisch, FHNW.
+   \bibitem[BMBF, 2003]{bmbf}[2]\,WaffenZimmi Bülach. (2017). http://www.waffenzimmi.ch/pressluftpistole-haemmerli-480-junior-p-4526.html.
+\end{thebibliography}
+
+
+\bibliography{literatur}
+
+\listoffigures
+
+\newpage 
+% Kapitel 7----------------------------------------------------
+\section{Anhang}
+% -------------------------------------------------------------
+Der Anhang wird per E-Mail an renato.minamisawa@fhnw.ch verdendet.
+\begin{itemize}
+	\item Excel-Tabelle $Pistolenversuch\_v1$
+	\item Matlab-File $Fehlerrechnung$
+\end{itemize}
+
+\end{document}

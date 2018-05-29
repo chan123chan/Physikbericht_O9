@@ -1,0 +1,34 @@
+% Kapitel 1 Fehlerrechnung---------------------------------------------------- %
+\section{Fehlerrechnung}
+% ---------------------------------------------------------------------------- %
+
+Die Fehlerrechnung für die wird anhand diesen Formel durchgeführt. Alle Berechnungen wurden in einem Matlabfile gerechnet, welches im Anhang hinterlegt ist.\\
+Der Fehler bildet sich aus einem systematischen und einem statistischen Fehler.
+ 
+% **************************************************************************** %
+\subsection{Systematischer Fehler}
+% **************************************************************************** %
+Dieser Fehler $ s_{syst} $ besteht aus zwei Messfehler, welche die Messresultate beeinflussen. Diese Messfehler entstehen bei der Messung der Strecke zwischen zwei Minima des Interferenzmusters, sowie bei der Messung der Strecke von der Linse bis zum Schirm. Der Fehler $ s_{x} $ ist XXX und der Fehler $ s_{y} $ ist XXX. \\
+Die Fehlerrechnung wurde mit folgender Formel durchgeführt. Dazu wurde die Formel \ref{} partiell abgeleitet.
+
+\begin{equation}
+s_{syst} = \sqrt{\left(\frac{\partial R}{\partial x}\cdot s_{x}\right)^2+\left(\frac{\partial R}{\partial y}\cdot s_{y}\right)^2}
+\label{eq:syst Fehler}
+\end{equation}
+
+% **************************************************************************** %
+\subsection{Statischer Fehler}
+% **************************************************************************** %
+Dieser Fehler kann direkt aus den Berechnungen von QtiPlot übernommen werden. In der Tabelle \ref{} ist der statische Fehler $ s_{stat} $ aufgeführt.
+
+% **************************************************************************** %
+\subsection{Gesamter Fehler}
+% **************************************************************************** %
+Mit der Geometrischen Addition kann der Gesamtfehler aus dem statischen und dem systematischen Fehler berechnet werden.
+
+\begin{equation}
+s_{tot} = \sqrt{(s_{sys})^2+(s_{stat})^2}
+\label{eq:gesamter Fehler}
+\end{equation}
+
+Die Berechnungen wurden mit Matlab durchgeführt und das entsprechende File im Anhang hinterlegt. Die Resultate sind in der folgenden Tabelle \ref{} aufgeführt.
