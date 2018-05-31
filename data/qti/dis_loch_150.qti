@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="0.9.9.2" dpi="168" arch="Win64" script="muParser" windows="2" expand="1">
+	<window type="1" name="Tabelle1" date="2458269.8044622" x="0" y="0" w="412" h="541">
+		<tab rows="30" cols="3" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="1;2;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="6.93638e-05;0.00015;"/>
+			<col name="3" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="3.7007e-06;4e-06;"/>
+		</tab>
+	</window>
+	<window type="3" name="Grafik1" date="2458269.804669" x="412" y="0" w="1864" h="1079" active="1" dpi="168">
+		<layout cw="1850" ch="1000" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="14" y="61" w="1092" h="867" autoscale="1" gap="1" scaleFont="1">
+			<page x="0.00756757" y="0.061" w="0.59027" h="0.867"/>
+			<title text="Vergleich Loch 150μm" color="#000000" font="Lucida Sans Unicode,18.7347,-1,5,75,0,0,0,0,0" align="4228" fmw="501"/>
+			<frame bg="#ffffff,0" grad="0,#ffffff"/>
+			<canvas x="231" y="185" w="811" h="679" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+			</grid>
+			<curve type="1" z="21" table="Tabelle1" x="1" y="2" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="11" lc="#000000" lw="1" ls="0" brc="#000000"/>
+				<errors type="1" z="22" table="Tabelle1" col="3" from="0" to="-1" lw="3" lc="#000000" cap="8" plus="1" minus="1" symb="1"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="6e-05" to="0.00016" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="3" majl="17" min="3" minl="9"/>
+				<title text="Lochdurchmesser [m]" color="#000000" font="Lucida Sans Unicode,14.9878,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="384"/>
+				<labels space="10" font="Lucida Sans Unicode,14.9878,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="6e-05" to="0.00016" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="3" majl="17" min="3" minl="9"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,14.9878,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="12"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="0.8" to="2.2" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="3" majl="17" min="3" minl="9"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,14.9878,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="12"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="0.8" to="2.2" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="3" majl="17" min="3" minl="9"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,14.9878,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="12"/>
+			</axis>
+		</tab>
+	</window>
+</qti>

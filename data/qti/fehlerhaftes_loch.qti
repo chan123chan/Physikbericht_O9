@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="0.9.9.2" dpi="168" arch="Win64" script="muParser" windows="2" expand="1" log="[31.05.2018 15:07:12&#9;Diagramm: ''Grafik1'']&#10;Nichtlinearer Anpassung von Datensatz: Tabelle1_2, unter Verwendung der Funktion: asin(x*l/(b))&#10;Sortieren: Nein&#10;Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)&#10;Skalierter Levenberg-Marquardt Algorithmus mit Toleranz = 0.0001&#10;Von x = 1.000000000e+00 bis x = 4.000000000e+00 (4 Datenpunkten)&#10;--------------------------------------------------------------------------------------&#10;b = 7.147220454e-05 +/- 1.472681754e-03&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 5.814056002e-07&#10;R^2 = 1&#10;Angepasstes R^2 = 0.992444622&#10;RMSE (Standardabweichung) = 0.000762499574&#10;RSS (Summe der quadrierten Restwerte) = 1.7442168e-06&#10;---------------------------------------------------------------------------------------&#10;Iterationen = 13&#10;Status = success&#10;---------------------------------------------------------------------------------------&#10;l = 6.33e-07 (Konstante)&#10;---------------------------------------------------------------------------------------&#10;[31.05.2018 15:07:16&#9;Diagramm: ''Grafik1'']&#10;Nichtlinearer Anpassung von Datensatz: Tabelle1_2, unter Verwendung der Funktion: asin(x*l/(b))&#10;Sortieren: Nein&#10;Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)&#10;Skalierter Levenberg-Marquardt Algorithmus mit Toleranz = 0.0001&#10;Von x = 1.000000000e+00 bis x = 4.000000000e+00 (4 Datenpunkten)&#10;--------------------------------------------------------------------------------------&#10;b = 7.160882545e-05 +/- 1.478319880e-03&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 5.785368709e-07&#10;R^2 = 0.994963081&#10;Angepasstes R^2 = 0.992481901&#10;RMSE (Standardabweichung) = 0.000760616113&#10;RSS (Summe der quadrierten Restwerte) = 1.73561061e-06&#10;---------------------------------------------------------------------------------------&#10;Iterationen = 1&#10;Status = success&#10;---------------------------------------------------------------------------------------&#10;l = 6.33e-07 (Konstante)&#10;---------------------------------------------------------------------------------------&#10;[31.05.2018 15:07:17&#9;Diagramm: ''Grafik1'']&#10;Nichtlinearer Anpassung von Datensatz: Tabelle1_2, unter Verwendung der Funktion: asin(x*l/(b))&#10;Sortieren: Nein&#10;Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)&#10;Skalierter Levenberg-Marquardt Algorithmus mit Toleranz = 0.0001&#10;Von x = 1.000000000e+00 bis x = 4.000000000e+00 (4 Datenpunkten)&#10;--------------------------------------------------------------------------------------&#10;b = 7.160908592e-05 +/- 1.478330641e-03&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 5.785368606e-07&#10;R^2 = 0.994987934&#10;Angepasstes R^2 = 0.992481901&#10;RMSE (Standardabweichung) = 0.000760616106&#10;RSS (Summe der quadrierten Restwerte) = 1.73561058e-06&#10;---------------------------------------------------------------------------------------&#10;Iterationen = 1&#10;Status = success&#10;---------------------------------------------------------------------------------------&#10;l = 6.33e-07 (Konstante)&#10;---------------------------------------------------------------------------------------&#10;[31.05.2018 15:07:18&#9;Diagramm: ''Grafik1'']&#10;Nichtlinearer Anpassung von Datensatz: Tabelle1_2, unter Verwendung der Funktion: asin(x*l/(b))&#10;Sortieren: Nein&#10;Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)&#10;Skalierter Levenberg-Marquardt Algorithmus mit Toleranz = 0.0001&#10;Von x = 1.000000000e+00 bis x = 4.000000000e+00 (4 Datenpunkten)&#10;--------------------------------------------------------------------------------------&#10;b = 7.160908592e-05 +/- 1.478330640e-03&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 5.785368606e-07&#10;R^2 = 0.994987934&#10;Angepasstes R^2 = 0.992481901&#10;RMSE (Standardabweichung) = 0.000760616106&#10;RSS (Summe der quadrierten Restwerte) = 1.73561058e-06&#10;---------------------------------------------------------------------------------------&#10;Iterationen = 1&#10;Status = success&#10;---------------------------------------------------------------------------------------&#10;l = 6.33e-07 (Konstante)&#10;---------------------------------------------------------------------------------------&#10;[31.05.2018 15:07:18&#9;Diagramm: ''Grafik1'']&#10;Nichtlinearer Anpassung von Datensatz: Tabelle1_2, unter Verwendung der Funktion: asin(x*l/(b))&#10;Sortieren: Nein&#10;Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)&#10;Skalierter Levenberg-Marquardt Algorithmus mit Toleranz = 0.0001&#10;Von x = 1.000000000e+00 bis x = 4.000000000e+00 (4 Datenpunkten)&#10;--------------------------------------------------------------------------------------&#10;b = 7.160908592e-05 +/- 1.478330640e-03&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 5.785368606e-07&#10;R^2 = 0.994987934&#10;Angepasstes R^2 = 0.992481901&#10;RMSE (Standardabweichung) = 0.000760616106&#10;RSS (Summe der quadrierten Restwerte) = 1.73561058e-06&#10;---------------------------------------------------------------------------------------&#10;Iterationen = 1&#10;Status = success&#10;---------------------------------------------------------------------------------------&#10;l = 6.33e-07 (Konstante)&#10;---------------------------------------------------------------------------------------&#10;[31.05.2018 15:07:20&#9;Diagramm: ''Grafik1'']&#10;Nichtlinearer Anpassung von Datensatz: Tabelle1_2, unter Verwendung der Funktion: asin(x*l/(b))&#10;Sortieren: Nein&#10;Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)&#10;Skalierter Levenberg-Marquardt Algorithmus mit Toleranz = 0.0001&#10;Von x = 1.000000000e+00 bis x = 4.000000000e+00 (4 Datenpunkten)&#10;--------------------------------------------------------------------------------------&#10;b = 7.160908592e-05 +/- 1.478330640e-03&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 5.785368606e-07&#10;R^2 = 0.994987934&#10;Angepasstes R^2 = 0.992481901&#10;RMSE (Standardabweichung) = 0.000760616106&#10;RSS (Summe der quadrierten Restwerte) = 1.73561058e-06&#10;---------------------------------------------------------------------------------------&#10;Iterationen = 1&#10;Status = success&#10;---------------------------------------------------------------------------------------&#10;l = 6.33e-07 (Konstante)&#10;---------------------------------------------------------------------------------------&#10;">
+	<window type="1" name="Tabelle1" date="2458269.6285053" x="0" y="0" w="559" h="909">
+		<tab rows="30" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="1;2;3;4;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.009808298;0.018179815;0.026787849;0.034675091;"/>
+		</tab>
+	</window>
+	<window type="3" name="Grafik1" date="2458269.6288014" x="559" y="0" w="1865" h="1202" active="1" dpi="168">
+		<layout cw="1851" ch="1123" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="15" y="120" w="1148" h="886" autoscale="1" gap="1" scaleFont="1">
+			<page x="0.00810373" y="0.106857" w="0.620205" h="0.788958"/>
+			<title text="Alternative Berechnung mit Fit" color="#000000" font="Lucida Sans Unicode,21.3729,-1,5,75,0,0,0,0,0" align="4228" fmw="766"/>
+			<frame bg="#ffffff,0" grad="0,#ffffff"/>
+			<canvas x="189" y="256" w="876" h="657" fixRatio="1.33333" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="0"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="0"/>
+			</grid>
+			<curve type="19" z="0" name="NichtlinearFit1" f="0" y="asin(x*l/(b))" from="1" to="4" points="100" line="1" lc="#000000" lw="2" ls="0" brc="#000000" brs="0">
+				<param name="b" val="7.16090859228355e-05"/>
+				<param name="l" val="6.33e-07"/>
+			</curve>
+			<curve type="1" z="1" table="Tabelle1" x="1" y="2" from="0" to="3" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="1" lw="2">
+				<div from="0.005" to="0.04" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="3" majl="19" min="3" minl="11"/>
+				<title text="Phi [rad]" color="#000000" font="Lucida Sans Unicode,17.0983,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="170"/>
+				<labels space="10" font="Lucida Sans Unicode,13.9371,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="0.005" to="0.035" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="3" majl="19" min="3" minl="11"/>
+				<title text="&#10;" color="#000000" font="Lucida Sans Unicode,17.1755,-1,5,75,0,0,0,0,0" align="5124" fmw="31"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="5" lw="2">
+				<div from="0.5" to="4.5" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="3" majl="19" min="3" minl="11"/>
+				<title text="Ordnung " color="#000000" font="Lucida Sans Unicode,17.0983,-1,5,75,0,0,0,0,0" align="5124" fmw="193"/>
+				<labels space="3" font="Lucida Sans Unicode,13.9371,-1,5,50,0,0,0,0,0" hide="0.5;1.5;2.5;3.5"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="0.5" to="4.5" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="3" majl="19" min="3" minl="11"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,17.1755,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="14"/>
+			</axis>
+			<item type="2" x="0.589585666293393" y="0.0389029850746269" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff" brc="#000000" brs="0" onTop="1" at="0" on="1" auto="1" font="Lucida Sans Unicode,10.0564,-1,5,50,0,0,0,0,0" text="\l(1) Fit&#10;\l(2) Messpunkte&#10;&lt;b&gt;Datensatz&lt;/b&gt;: Tabelle1_2&#10;&lt;b&gt;Funktion&lt;/b&gt;: asin(x*l/(b))&#10;&lt;b&gt;b&lt;/b&gt; = 7.160908592e-05 +/- 1.478330640e-03&#10;Lamda = 6.33e-07 (Konstante)"/>
+		</tab>
+	</window>
+</qti>

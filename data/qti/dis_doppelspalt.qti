@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="0.9.9.2" dpi="168" arch="Win64" script="muParser" windows="2" expand="1">
+	<window type="1" name="Tabelle1" date="2458269.8163603" x="0" y="0" w="270" h="390">
+		<tab rows="30" cols="3" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="1;2;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="6.16058e-05;4e-05;"/>
+			<col name="3" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="4.82e-07;0;"/>
+		</tab>
+	</window>
+	<window type="3" name="Grafik1" date="2458269.8164258" w="694" h="616" state="2" active="1" dpi="168">
+		<layout cw="2560" ch="1199" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="19" y="72" w="1288" h="953" autoscale="1" gap="1" scaleFont="1">
+			<page x="0.00742187" y="0.06005" w="0.503125" h="0.794829"/>
+			<title text="Vergleich Doppelspalt" color="#000000" font="Lucida Sans Unicode,22.3265,-1,5,75,0,0,0,0,0" align="4228" fmw="575"/>
+			<frame bg="#ffffff,0" grad="0,#ffffff"/>
+			<canvas x="279" y="215" w="955" h="716" fixRatio="1.33333" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+			</grid>
+			<curve type="1" z="22" table="Tabelle1" x="1" y="2" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="11" lc="#000000" lw="1" ls="0" brc="#000000"/>
+				<errors type="1" z="21" table="Tabelle1" col="3" from="0" to="-1" lw="3" lc="#000000" cap="8" plus="1" minus="1" symb="1"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="3.5e-05" to="6.5e-05" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="3" majl="20" min="3" minl="11"/>
+				<title text="Spaltbreite [m]" color="#000000" font="Lucida Sans Unicode,17.8612,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="312"/>
+				<labels space="10" font="Lucida Sans Unicode,17.8612,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="3.5e-05" to="6.5e-05" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="3" majl="20" min="3" minl="11"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,17.8612,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="14"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="0.8" to="2.2" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="3" majl="20" min="3" minl="11"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,17.8612,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="14"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="0.8" to="2.2" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="3" majl="20" min="3" minl="11"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,17.8612,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="14"/>
+			</axis>
+		</tab>
+	</window>
+</qti>

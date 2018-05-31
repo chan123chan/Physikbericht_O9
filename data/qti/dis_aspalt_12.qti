@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="0.9.9.2" dpi="168" arch="Win64" script="muParser" windows="2" expand="1">
+	<window type="1" name="Tabelle1" date="2458269.8007012" x="0" y="0" w="270" h="390">
+		<tab rows="30" cols="3" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="1;2;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.000124349;0.000124;"/>
+			<col name="3" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="1.0346e-06;0;"/>
+		</tab>
+	</window>
+	<window type="3" name="Grafik1" date="2458269.8007812" x="270" y="0" w="2107" h="1120" active="1" dpi="168">
+		<layout cw="2093" ch="1041" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="171" y="139" w="727" h="884" autoscale="1" gap="1" scaleFont="1">
+			<page x="0.0817009" y="0.133525" w="0.347348" h="0.849183"/>
+			<title text="Vergleich Antispalt 0.124mm" color="#000000" font="Lucida Sans Unicode,17.7143,-1,5,75,0,0,0,0,0" align="4228" fmw="609"/>
+			<frame bg="#ffffff,0" grad="0,#ffffff"/>
+			<canvas x="421" y="215" w="475" h="706" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+			</grid>
+			<curve type="1" z="21" table="Tabelle1" x="1" y="2" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="11" lc="#000000" lw="1" ls="0" brc="#000000"/>
+				<errors type="1" z="22" table="Tabelle1" col="3" from="0" to="-1" lw="3" lc="#000000" cap="8" plus="1" minus="1" symb="1"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="0.000123" to="0.0001255" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="3" majl="16" min="3" minl="9"/>
+				<title text="Antispaltbreite [m]" color="#000000" font="Lucida Sans Unicode,14.1714,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="318"/>
+				<labels space="10" font="Lucida Sans Unicode,14.1714,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="0.00012395" to="0.0001244" step="0" maj="10" min="5" type="0"/>
+				<ticks maj="3" majl="16" min="3" minl="9"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="0.8" to="2.2" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="3" majl="16" min="3" minl="9"/>
+				<title text=" &#10;" color="#000000" font="Lucida Sans Unicode,14.1714,-1,5,75,0,0,0,0,0" align="5124" space="20" fmw="37"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="2">
+				<div from="0.8" to="2.2" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="3" majl="16" min="3" minl="9"/>
+			</axis>
+		</tab>
+	</window>
+</qti>
