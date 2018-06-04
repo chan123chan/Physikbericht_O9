@@ -1,0 +1,17 @@
+del *.aux
+del *.bak
+del *.bbl
+del *.bcf
+del *.blg
+del *.brf
+del *.dvi
+del *.gz
+del *.idx
+del *.loa
+del *.lof
+del *.log
+del *.lot
+del *.out
+del *.thm
+del *.toc
+del *.xml

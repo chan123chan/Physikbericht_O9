@@ -1,16 +1,43 @@
-% Kapitel 3 Auswertung-------------------------------------------------------- %
 \section{Auswertung}
-% ---------------------------------------------------------------------------- %
+Die Aufgabe war es die verschiedenen Breiten und Durchmesser der verschiedenen Proben zu untersuchen. Die sollte jedoch nicht auf dem normalen Weg geschehen wie in der Aufgabenstellung. Herr Minawisawa gab uns am Labortag die zusätzliche Aufgabe eben diese Breiten mit der optischen Fourietransormations Beziehung zu lösen.
+
+Aus den Arbeitsgrundlagen und der Signalverarbeitung ist bekannt was die Rücktransformierte einer Sinc-Funktion einem Rechteck entspricht. Unten stehen die beiden Formel.
+
+\begin{equation}
+		rec(s)=\sigma(s+\frac{T}{2}) -\sigma(s-\frac{T}{2})
+\end{equation}
+\begin{equation}
+		sinc(s)=\frac{sin(s)}{s}
+\end{equation}
+
+Wenn man diese Formeln vergleicht und mit etwas Aufwand umformt. Kann man erkennen, dass sich folgende Formel daraus ergibt.
+
+\begin{equation}
+T = \frac{2\cdot \lambda \cdot L}{d0}
+\label{eq:main}
+\end{equation}
+
+Wobei $T$ dem gewünschten Wert entspricht. Dabei entspricht $\lambda$ der Wellenlänge des Lichtes. Es wurde ein roter Laser verwendet mit der Wellenlänge $6.33e-7$. Die eigentlich gemessene Grösse ist $d0$. Sie stellt den Abstand zwischen zwei Nullstellen dar.
+
+Aus diesen Werten wurden mithilfe von Formel \ref{eq:main} die Spaltbreite, Antispaltbreite und den Lochdurchmesser errechnet. Jedoch sind das einfache algebraische Gleichungen. Es wird an dieser Stelle darauf verzichtet diese zu visualisieren. Im Kapitel \ref{sec:diskussion} werden die einzelnen Werte visualisiert und mit ihren theoretischen Werten verglichen.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ll}
+		Spalt $50\mu m$:		&  $49e-6$\\
+		Spalt $200\mu m$:		&  $196e-6$\\
+		Antispalt $0.33mm$: 	&  $331e-6$\\
+		Antispalt $0.124mm$:	&  $124e-6$\\
+		Loch $150\mu m$: 		&  $69e-6$\\
+		Loch $100\mu m$: 		&  $96e-6$\\
+		Gitter $70\mu m$:  		&  $70e-6$\\
+		Doppelspalt $40\mu m$: 	&  $616e-7$\\
+	\end{tabular}
+	\caption{Errechnete Endwerte}
+	\label{tab:final_values}
+\end{table}
 
 
-% **************************************************************************** %
-\subsection{Beugung am Spalt und Antispalt}
-% **************************************************************************** %
 
-% **************************************************************************** %
-\subsection{Beugung am Loch und Antiloch}
-% **************************************************************************** %
 
-% **************************************************************************** %
-\subsection{Noch offen}
-% **************************************************************************** %
+

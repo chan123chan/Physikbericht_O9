@@ -1,29 +1,21 @@
-% Kapitel 1 Fehlerrechnung---------------------------------------------------- %
 \section{Fehlerrechnung}
-% ---------------------------------------------------------------------------- %
 
 Die Fehlerrechnung für die wird anhand diesen Formel durchgeführt. Alle Berechnungen wurden in einem Matlabfile gerechnet, welches im Anhang hinterlegt ist.\\
 Der Fehler bildet sich aus einem systematischen und einem statistischen Fehler.
  
-% **************************************************************************** %
 \subsection{Systematischer Fehler}
-% **************************************************************************** %
-Dieser Fehler $ s_{syst} $ besteht aus zwei Messfehler, welche die Messresultate beeinflussen. Diese Messfehler entstehen bei der Messung der Strecke zwischen zwei Minima des Interferenzmusters, sowie bei der Messung der Strecke von der Linse bis zum Schirm. Der Fehler $ s_{x} $ ist XXX und der Fehler $ s_{y} $ ist XXX. \\
-Die Fehlerrechnung wurde mit folgender Formel durchgeführt. Dazu wurde die Formel \ref{} partiell abgeleitet.
+Dieser Fehler $ s_{syst} $ besteht aus zwei Messfehler, welche die Messresultate beeinflussen. Diese Messfehler entstehen bei der Messung der Strecke zwischen zwei Minima des Interferenzmusters, sowie bei der Messung der Strecke von der Linse bis zum Schirm. \\
+Die Fehlerrechnung wurde mit folgender Formel durchgeführt. Dazu wurde die Formel \ref{eq:syst Fehler} partiell abgeleitet.
 
 \begin{equation}
 s_{syst} = \sqrt{\left(\frac{\partial R}{\partial x}\cdot s_{x}\right)^2+\left(\frac{\partial R}{\partial y}\cdot s_{y}\right)^2}
 \label{eq:syst Fehler}
 \end{equation}
 
-% **************************************************************************** %
 \subsection{Statischer Fehler}
-% **************************************************************************** %
-Dieser Fehler kann direkt aus den Berechnungen von QtiPlot übernommen werden. In der Tabelle \ref{} ist der statische Fehler $ s_{stat} $ aufgeführt.
+Dieser Fehler kann direkt aus den Berechnungen von Excel übernommen werden. In der Tabelle 1 ist der statische Fehler $ s_{stat} $ aufgeführt.
 
-% **************************************************************************** %
 \subsection{Gesamter Fehler}
-% **************************************************************************** %
 Mit der Geometrischen Addition kann der Gesamtfehler aus dem statischen und dem systematischen Fehler berechnet werden.
 
 \begin{equation}
@@ -31,4 +23,20 @@ s_{tot} = \sqrt{(s_{sys})^2+(s_{stat})^2}
 \label{eq:gesamter Fehler}
 \end{equation}
 
-Die Berechnungen wurden mit Matlab durchgeführt und das entsprechende File im Anhang hinterlegt. Die Resultate sind in der folgenden Tabelle \ref{} aufgeführt.
+Die Berechnungen wurden mit Matlab durchgeführt und das entsprechende File im Anhang hinterlegt. Die Resultate sind in der folgenden Tabelle \ref{tab:final_values_error} aufgeführt.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ll}
+		Spalt $50\mu m$:		&  $\pm7e-7$\\
+		Spalt $200\mu m$:		&  $\pm6e-6$\\
+		Antispalt $0.33mm$: 	&  $\pm3e-6$\\
+		Antispalt $0.124mm$:	&  $\pm1e-6$\\
+		Loch $150\mu m$: 		&  $\pm4e-6$\\
+		Loch $100\mu m$: 		&  $\pm4e-6$\\
+		Gitter $70\mu m$:  		&  $\pm5e-6$\\
+		Doppelspalt $40\mu m$: 	&  $\pm5e-7$\\
+	\end{tabular}
+	\caption{Fehler der Fehlerrechnung}
+	\label{tab:final_values_error}
+\end{table}
